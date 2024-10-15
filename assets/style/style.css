@@ -1,0 +1,18 @@
+/* Style for buttons */
+.btn {
+    background-color: #4CAF50; /* Màu nền */
+    border: none; /* Bỏ viền */
+    color: white; /* Màu chữ */
+    padding: 10px 20px; /* Khoảng cách bên trong */
+    text-align: center; /* Căn giữa chữ */
+    text-decoration: none; /* Bỏ gạch chân */
+    display: inline-block; /* Hiển thị inline */
+    font-size: 16px; /* Cỡ chữ */
+    margin: 4px 2px; /* Khoảng cách giữa các nút */
+    cursor: pointer; /* Con trỏ chuột */
+    border-radius: 4px; /* Bo tròn góc */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Hiệu ứng khi hover */
+}

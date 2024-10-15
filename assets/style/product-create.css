@@ -1,0 +1,83 @@
+/* Đặt các giá trị chung cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Tiêu đề của trang */
+h1 {
+    padding: 10px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form nhập liệu */
+form {
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Bảng hiển thị các trường nhập liệu */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Các ô nhập liệu */
+table td {
+    padding: 10px;
+    vertical-align: middle;
+    color: #333;
+}
+
+/* Căn chỉnh cho cột đầu tiên */
+table td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Căn chỉnh cho cột thứ hai chứa input */
+table td:last-child {
+    text-align: left;
+}
+
+/* Định dạng các input */
+input[type="text"],
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Định dạng nút submit */
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}

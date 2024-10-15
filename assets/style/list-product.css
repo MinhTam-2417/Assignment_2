@@ -1,0 +1,135 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-item h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.product-item p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.product-item h2 {
+    font-size: 1em;
+    color: #e67e22;
+} */
+
+
+
+
+/* Đặt các giá trị chung cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Định dạng nút Quản lý sản phẩm */
+.manage-product-btn {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.manage-product-btn:hover {
+    background-color: #218838;
+}
+
+/* Bố cục container cho danh sách sản phẩm */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Định dạng mỗi mục sản phẩm */
+.product-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Hình ảnh sản phẩm */
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Tên sản phẩm */
+.product-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Mô tả sản phẩm */
+.product-item p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Giá sản phẩm */
+.product-item h2 {
+    font-size: 22px;
+    color: #e63946;
+    font-weight: bold;
+}
+
+/* Định dạng thông báo khi không có sản phẩm */
+.container p {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
